@@ -1,5 +1,5 @@
-# from flask import Flask, jsonify, request
-# app = Flask(__name__)
+from flask import Flask, jsonify, request
+app = Flask(__name__)
 
 usuarios_lista = [{'nome': 'Luiz', "email": "luiz@teste.com", "idade": "13", "cep": "8765-4321"},
         {'nome': 'Beatriz', "email": "beatriz@teste.com", "idade": "23", "cep": "1234-5678"},

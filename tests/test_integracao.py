@@ -1,4 +1,4 @@
-# from main.app import app
+from main.app import app
 import pytest
 import unittest
 from unittest.mock import patch
